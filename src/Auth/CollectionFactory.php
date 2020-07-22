@@ -50,13 +50,13 @@ class CollectionFactory implements FactoryInterface
         OAuth2\Provider\Yahoo::NAME         => OAuth2\Provider\Yahoo::class,
         OAuth2\Provider\WordPress::NAME     => OAuth2\Provider\WordPress::class,
         OAuth2\Provider\Meetup::NAME        => OAuth2\Provider\Meetup::class,
+        OAuth2\Provider\Sberbank::NAME     => OAuth2\Provider\Sberbank::class,
         // OpenID
         OpenID\Provider\Steam::NAME         => OpenID\Provider\Steam::class,
         // OpenIDConnect
         OpenIDConnect\Provider\Apple::NAME        => OpenIDConnect\Provider\Apple::class,
         OpenIDConnect\Provider\Google::NAME       => OpenIDConnect\Provider\Google::class,
         OpenIDConnect\Provider\PixelPin::NAME     => OpenIDConnect\Provider\PixelPin::class,
-        OpenIDConnect\Provider\Sberbank::NAME     => OpenIDConnect\Provider\Sberbank::class,
     ];
 
     /**
