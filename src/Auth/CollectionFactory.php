@@ -56,6 +56,7 @@ class CollectionFactory implements FactoryInterface
         OpenIDConnect\Provider\Apple::NAME        => OpenIDConnect\Provider\Apple::class,
         OpenIDConnect\Provider\Google::NAME       => OpenIDConnect\Provider\Google::class,
         OpenIDConnect\Provider\PixelPin::NAME     => OpenIDConnect\Provider\PixelPin::class,
+        OpenIDConnect\Provider\Sberbank::NAME     => OpenIDConnect\Provider\Sberbank::class,
     ];
 
     /**
