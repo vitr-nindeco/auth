@@ -23,4 +23,9 @@ interface AccessTokenInterface
      * @return integer|null
      */
     public function getExpires();
+
+    /**
+     * @return array|null
+     */
+    public function getData(): ?array;
 }
